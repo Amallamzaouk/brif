@@ -1,0 +1,137 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    
+        
+    
+}
+#logo{
+    width: 150px;
+    height: 140px;
+    padding-left: 20%;
+    padding-top: 10%;
+
+}
+/* icon-language */
+#lang a{
+    display: flex;   
+    border-color: #f77c09;
+    border-width: 1px;
+  }
+.logo-lang {
+      height: 20px;
+      width: 23px;
+     
+}
+/* end  icon-language */  
+/* header style */
+header{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 110px;
+    padding: 30px 100px;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url('covid-long-og.jpg');
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    margin-left: 100px;
+   
+}
+nav {
+    margin-right: 50px;
+}
+nav ul li a {
+    text-decoration: none;
+    padding: 5px 5px;
+    color:  rgb(241, 220, 220);
+    border-radius: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+    
+
+}
+
+nav ul li a:hover{
+    background-color:  #387ee6;
+    color: beige;
+}
+/* end header style */
+/* first and second section style */
+.section-header{
+    width: 100%;
+    height: auto;
+    position: relative;
+    background-color: #f3cb18;
+    text-align: center;
+    padding: 15px;
+}
+.section-header h1,.introduction h2{
+    color: #1d4f7e;
+    font-style: oblique;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+}
+.introduction{
+
+        width: 100%;
+        height: auto;
+        position: relative;
+        text-align: center;
+}
+/* end first and second section style */
+/* style all paragraph */
+p{
+    color: #0a0a0a;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+figure{
+    text-align: center;
+}
+/* end style all pragraph */
+.content{
+    
+ display: grid;
+  grid-template-columns: auto auto auto;
+   justify-content : space-around;
+   
+}
+article{
+    width: 30%;
+    height: 20%;
+    margin: 10%;
+    margin-left: 30%;
+}
+img{
+    width: 80%;
+    height: 80%;
+    padding: 4%;
+}
+/* footer */
+footer {
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 100px;
+    margin: auto;
+    bottom: 0;
+    background: position;
+     
+}
+/* end style footer */
